@@ -24,7 +24,7 @@ class Configuration {
   String? msixVersion;
   String? appDescription;
   String buildFilesFolder =
-      p.join(Directory.current.path, 'build', 'windows', 'runner', 'Release');
+      p.join(Directory.current.path, 'build', 'windows', 'x64', 'runner', 'Release');
   String? certificatePath;
   String? certificatePassword;
   String? publisher;
